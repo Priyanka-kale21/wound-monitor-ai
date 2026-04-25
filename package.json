@@ -1,0 +1,13 @@
+{
+  "name": "woundmonitor-fullstack",
+  "version": "1.0.0",
+  "description": "AI-Assisted Wound Monitor",
+  "scripts": {
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\"",
+    "frontend": "cd frontend && npm run dev",
+    "backend": "cd backend && .\\venv\\Scripts\\uvicorn main:app --reload"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
