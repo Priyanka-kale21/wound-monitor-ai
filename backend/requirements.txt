@@ -20,7 +20,7 @@ charset-normalizer==3.4.5
 chromadb==1.1.1
 click==8.1.8
 colorama==0.4.6
-crewai==1.10.1
+crewai==1.10.2
 crewai-tools==1.10.1
 cryptography==46.0.5
 dataclasses-json==0.6.7
